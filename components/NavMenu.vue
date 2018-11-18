@@ -12,17 +12,21 @@
           @close="handleClose">
           <el-menu-item index="1">
             <i class="el-icon-view"/>
-            <span><nuxt-link to="/MainPage">Main Page</nuxt-link></span>
+            <span><nuxt-link to="/main-page">Main Page</nuxt-link></span>
           </el-menu-item>
           <el-menu-item index="2">
             <i class="el-icon-menu"/>
-            <span><nuxt-link to="/Documents">Documents</nuxt-link></span>
+            <span><nuxt-link to="/documents">Documents</nuxt-link></span>
           </el-menu-item>
           <el-menu-item index="3">
             <i class="el-icon-goods"/>
-            <span><nuxt-link to="/ProductsServices">Products & Services</nuxt-link></span>
+            <span><nuxt-link to="/products-services">Products & Services</nuxt-link></span>
           </el-menu-item>
-          <el-submenu index="4">
+          <el-menu-item index="4">
+            <i class="el-icon-goods"/>
+            <span><nuxt-link to="/charts">Charts</nuxt-link></span>
+          </el-menu-item>
+          <el-submenu index="5">
             <template slot="title">
               <i class="el-icon-setting"/>
               <span>Company</span>
@@ -39,7 +43,7 @@
               <el-menu-item index="1-4-1">Discount</el-menu-item>
             </el-submenu>
           </el-submenu>
-          <el-submenu index="5">
+          <el-submenu index="6">
             <template slot="title">
               <i class="el-icon-location"/>
               <span>Contractors</span>
@@ -48,14 +52,14 @@
             <el-menu-item index="1-2">Clients</el-menu-item>
           </el-submenu>
           <el-menu-item
-            index="6"
+            index="7"
             disabled>
             <i class="el-icon-document"/>
             <span>Plans & Pricing</span>
           </el-menu-item>
-          <el-menu-item index="7">
+          <el-menu-item index="8">
             <i class="el-icon-setting"/>
-            <span><nuxt-link to="/Auth">Trash</nuxt-link></span>
+            <span><nuxt-link to="/auth">Trash</nuxt-link></span>
           </el-menu-item>
         </el-menu>
       </el-col>

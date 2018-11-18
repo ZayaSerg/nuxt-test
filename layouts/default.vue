@@ -32,6 +32,25 @@ export default {
     NavMenu,
     Footer
   }
+  // data() {
+  //   return
+  //   menu: [
+  //     {
+  //       header: true,
+  //       title: 'TRAUD'
+  //     },
+  //     {
+  //       href: '/',
+  //       title: 'Dashboard',
+  //       icon: 'fa fa-user'
+  //     },
+  //     {
+  //       href: '#',
+  //       title: 'Charts',
+  //       icon: 'fa fa-chart-area'
+  //     }
+  //   ]
+  // }
 }
 </script>
 

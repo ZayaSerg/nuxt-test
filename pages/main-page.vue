@@ -21,6 +21,7 @@ import planetChartData from '@/store/chart-data.js'
 import Card from '@/components/Card'
 
 export default {
+  layout: 'AppLayout',
   components: {
     Card
   },
